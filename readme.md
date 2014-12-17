@@ -1,7 +1,7 @@
 #What is it for ?
 This is for making clean menu markup and without touching main css (menu.css) customizing menu from additional css files.
 
-Like if you want to make a top menu and if you created top-menu.css for extending definitions in menu.css. So you only will have menu.css with .menu class definitions and every time you create new menu for example .top, you define .menu.top css directives.
+Like if you want to make a top menu and if you created top-menu.css for extending definitions in menu.css. So there is main .menu class and you extend like .menu.top for menu called .top.
 
 The only thing you need from this mess to work is menu.css. Other files in this repo are for testing and demonstration purposes and on the fly I am learning github markdown cool features.
 
