@@ -1,0 +1,121 @@
+/*
+main menu preferences
+*/
+.menu.top
+{
+    font-family: "Arial";
+    font-size: 14px;
+}
+
+/*
+define inner menu boxes settings
+*/
+.menu.top ul
+{
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+/*
+define top menu items background
+*/
+.menu.top li
+{
+	background: silver;
+}
+
+/*
+define all menu items link color
+*/
+.menu.top li a
+{
+    color: green;
+    padding: 10px;
+}
+
+/*
+define top level menu item link settings
+dont change order of upper class (.menu.top li a) definition
+with this definition or it will mess up
+*/
+.menu.top > li > a
+{
+    color: red;
+    padding: 16px;
+}
+
+/*
+define all menu link items hover
+*/
+.menu.top li a:hover
+{
+    color: yellow;
+    background: green;
+}
+
+.menu.top > li:hover > a
+{
+    background: #333333;
+}
+
+.menu.top > li.active > a
+{
+    color: #fff;
+    background: #0074A2;
+}
+
+.menu.top li li.active > a
+{
+    color: #fff;
+    font-weight: 500;
+}
+
+.menu.top > li.active:hover
+{
+    background-color: #0074A2;
+}
+
+.menu.top ul ul
+{
+    background: #333333;
+}
+
+.menu.top ul
+{
+    background: #333333;
+}
+
+.menu.top ul li
+{
+    background: #333333;
+}
+
+.menu.top ul ul li
+{
+    background: #333333;
+}
+
+.menu.top li li a
+{
+
+}
+
+.menu.top.vertical li a:hover
+{
+    color: #2ea2cc;
+    background: none;
+}
+
+.menu.top.vertical > li.active > a
+{
+    color: #fff;
+    background: #0074A2;
+}
+
+.menu.top.button
+{
+	background:silver;
+	padding:15px;
+	overflow: hidden;
+	width: 40px;
+	height: 10px;
+}
