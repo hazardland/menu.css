@@ -1,5 +1,7 @@
 #What is it for ?
-This is for making clean menu markup and without touching main css (menu.css) customizing menu from additional css file. Like if you want to make a top menu and if you created top-menu.css for extending definitions in menu.css
+This is for making clean menu markup and without touching main css (menu.css) customizing menu from additional css files.
+
+Like if you want to make a top menu and if you created top-menu.css for extending definitions in menu.css. So you only will have menu.css with .menu class definitions and every time you create new menu for example .top, you define .menu.top css directives.
 
 The only thing you need from this mess to work is menu.css. Other files in this repo are for testing and demonstration purposes and on the fly I am learning github markdown cool features.
 
@@ -30,7 +32,7 @@ Here is how your markup looks like:
 	<li><a href="#">Contact</a></li>
 </ul>
 ```
-While it will show up as when even hovered:
+While it will show up as even hovered:
 
 ![](/images/menu1.png)
 
